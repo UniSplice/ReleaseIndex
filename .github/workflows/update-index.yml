@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *" # every 30 minutes
+  push:
+    branches: ["main"]
   repository_dispatch:
 
 jobs:
