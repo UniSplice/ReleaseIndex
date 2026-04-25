@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T17:08:51.552Z",
+  "generated_at": "2026-04-25T17:57:20.182Z",
   "core": {
     "latest": {
       "version": "v1.0.1",
@@ -9,7 +9,7 @@
       "assets": [
         {
           "name": "UniSplice.Core_1.0.1.zip",
-          "size": 32701,
+          "size": 32684,
           "url": "https://github.com/UniSplice/UniSplice.Core/releases/download/v1.0.1/UniSplice.Core_1.0.1.zip"
         }
       ]
@@ -23,7 +23,7 @@
         "assets": [
           {
             "name": "UniSplice.Core_1.0.1.zip",
-            "size": 32701,
+            "size": 32684,
             "url": "https://github.com/UniSplice/UniSplice.Core/releases/download/v1.0.1/UniSplice.Core_1.0.1.zip"
           }
         ]
