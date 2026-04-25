@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const core = JSON.parse(fs.readFileSync("core.json", "utf-8"));
 const mono = JSON.parse(fs.readFileSync("mono.json", "utf-8"));
-const harmony = JSON.parse(fs.readFileSync("mono.json", "utf-8"));
+const harmony = JSON.parse(fs.readFileSync("harmony.json", "utf-8"));
 
 function mapAssets(assets) {
 	return assets.map(a => ({
