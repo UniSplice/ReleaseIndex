@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T17:58:50.198Z",
+  "generated_at": "2026-04-25T18:02:45.346Z",
   "core": {
     "latest": {
       "version": "v1.0.1",
@@ -117,55 +117,29 @@
   },
   "harmonymodule": {
     "latest": {
-      "version": "v1.1.1",
-      "name": "Version 1.1.1 - Manager Support!",
-      "published_at": "2026-04-19T12:52:55Z",
+      "version": "v1.0.1",
+      "name": "Version 1.0.1 - Initial Version",
+      "published_at": "2026-04-25T17:56:03Z",
       "prerelease": false,
       "assets": [
         {
-          "name": "UniSplice.NativeMono_1.1.1.zip",
-          "size": 81599,
-          "url": "https://github.com/UniSplice/UniSplice.NativeMono/releases/download/v1.1.1/UniSplice.NativeMono_1.1.1.zip"
+          "name": "UniSplice.HarmonyModule_1.0.1.zip",
+          "size": 836650,
+          "url": "https://github.com/UniSplice/UniSplice.HarmonyModule/releases/download/v1.0.1/UniSplice.HarmonyModule_1.0.1.zip"
         }
       ]
     },
     "all": [
       {
-        "version": "v1.1.1",
-        "name": "Version 1.1.1 - Manager Support!",
-        "published_at": "2026-04-19T12:52:55Z",
+        "version": "v1.0.1",
+        "name": "Version 1.0.1 - Initial Version",
+        "published_at": "2026-04-25T17:56:03Z",
         "prerelease": false,
         "assets": [
           {
-            "name": "UniSplice.NativeMono_1.1.1.zip",
-            "size": 81599,
-            "url": "https://github.com/UniSplice/UniSplice.NativeMono/releases/download/v1.1.1/UniSplice.NativeMono_1.1.1.zip"
-          }
-        ]
-      },
-      {
-        "version": "v1.1.0",
-        "name": "Version 1.1.0 - Injector Preparation!",
-        "published_at": "2026-04-18T10:24:15Z",
-        "prerelease": false,
-        "assets": [
-          {
-            "name": "UniSplice.NativeMono_1.1.0.zip",
-            "size": 80409,
-            "url": "https://github.com/UniSplice/UniSplice.NativeMono/releases/download/v1.1.0/UniSplice.NativeMono_1.1.0.zip"
-          }
-        ]
-      },
-      {
-        "version": "v1.0.0",
-        "name": "Version 1.0.0 - First Release!",
-        "published_at": "2026-04-10T09:46:59Z",
-        "prerelease": false,
-        "assets": [
-          {
-            "name": "UniSplice.NativeMono_1.0.0.zip",
-            "size": 79586,
-            "url": "https://github.com/UniSplice/UniSplice.NativeMono/releases/download/v1.0.0/UniSplice.NativeMono_1.0.0.zip"
+            "name": "UniSplice.HarmonyModule_1.0.1.zip",
+            "size": 836650,
+            "url": "https://github.com/UniSplice/UniSplice.HarmonyModule/releases/download/v1.0.1/UniSplice.HarmonyModule_1.0.1.zip"
           }
         ]
       }
