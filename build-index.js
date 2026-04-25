@@ -2,6 +2,7 @@ const fs = require("fs");
 
 const core = JSON.parse(fs.readFileSync("core.json", "utf-8"));
 const mono = JSON.parse(fs.readFileSync("mono.json", "utf-8"));
+const harmony = JSON.parse(fs.readFileSync("mono.json", "utf-8"));
 
 function mapAssets(assets) {
 	return assets.map(a => ({
@@ -43,6 +44,7 @@ function extractMonoByAbi(release) {
 
 const latestCore = core[0];
 const latestMono = mono[0];
+const latestHarmony = harmony[0];
 
 const index = {
 	generated_at: new Date().toISOString(),
@@ -61,6 +63,11 @@ const index = {
 			...simplifyRelease(r),
 			abi: extractMonoByAbi(r)
 		}))
+	},
+
+	harmonymodule: {
+		latest: simplifyRelease(latestHarmony),
+		all: harmony.slice(0, 5).map(simplifyRelease)
 	}
 };
 
